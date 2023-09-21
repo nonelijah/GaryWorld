@@ -1,0 +1,15 @@
+# 특정 파일
+some.html
+
+# 확장자
+*.jpg
+
+# 폴더
+temp
+
+# 폴더 내 파일
+# temp/temp
+# temp .jpg
+
+# 특정 파일만 제외하기
+# !temp
