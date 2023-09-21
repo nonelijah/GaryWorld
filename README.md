@@ -66,6 +66,15 @@
 -   파일 업로드
 -   예시파일 작성함.
 
+## git restore
+
+사용법
+
+-   git restore
+-   git restore --staged <파일명>
+
+-   변경사항 되돌리기
+
 ## git branch
 
 -   branch를 확인
@@ -81,12 +90,24 @@
 -   사용법 : git branch <branch 이름>
 -   branch 생성
 
-### checkout <branch 이름>
+### switch <branch 이름>
 
--   사용법 : git checkout <branch 이름>
+-   사용법 : git switch <branch 이름>
 -   사용하는 branch를 해당 branch로 변경
 
 ### 원격 저장소에 브런치 만들기
 
 -   git push --set-upstream origin <branch 이름>
 -   git push -u <branch 이름>
+
+### -D
+
+-   사용법 : git branch -D <branch 이름>
+-   해당 브런치 삭제
+
+### 삭제한 branch 복구
+
+사용법
+
+1. `git reflog` : 복구 시점 확인
+2. `git checkout -b <삭제한 브랜치명> <커밋 해시값>`
