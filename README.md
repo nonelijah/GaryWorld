@@ -46,15 +46,15 @@
 
 <!-- 원격 레포와 연결 -->
 
--   git remote add origin <git주소>
+1.  git remote add origin <git주소>
 
 <!-- branch를 `main`으로 변경 -->
 
--   git branch -M main
+2.  git branch -M main
 
 <!-- git pull -->
 
--   git pull origin main
+3.  git pull origin main
 
 ### -v
 
@@ -72,6 +72,8 @@
 
 ### -M <branch 이름>
 
+-   사용법 : git branch -M <branch 이름>
+
 -   메인 branch를 해당 브런치로 변경
 
 ### <branch 이름>
@@ -83,3 +85,8 @@
 
 -   사용법 : git checkout <branch 이름>
 -   사용하는 branch를 해당 branch로 변경
+
+### 원격 저장소에 브런치 만들기
+
+-   git push --set-upstream origin <branch 이름>
+-   git push -u <branch 이름>
