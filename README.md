@@ -48,7 +48,7 @@
 
 -   git remote add origin <git주소>
 
-<!-- 브런치를 `main`으로 변경 -->
+<!-- branch를 `main`으로 변경 -->
 
 -   git branch -M main
 
@@ -65,3 +65,21 @@
 
 -   파일 업로드
 -   예시파일 작성함.
+
+## git branch
+
+-   branch를 확인
+
+### -M <branch 이름>
+
+-   메인 branch를 해당 브런치로 변경
+
+### <branch 이름>
+
+-   사용법 : git branch <branch 이름>
+-   branch 생성
+
+### checkout <branch 이름>
+
+-   사용법 : git checkout <branch 이름>
+-   사용하는 branch를 해당 branch로 변경
