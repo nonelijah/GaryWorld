@@ -111,3 +111,10 @@
 
 1. `git reflog` : 복구 시점 확인
 2. `git checkout -b <삭제한 브랜치명> <커밋 해시값>`
+
+### 브런치 병합
+
+사용법
+
+1. `git switch <main branch>` : default branch로 이동
+2. `git merge <원하는 branch>` : default branch와 원하는 브런치 병합됨.
